@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about-es.html",
-    "href": "about-es.html",
-    "title": "Tom Baladrón",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tom Baladrón J.",
     "section": "",
-    "text": "Áreas profesionales: Tom Baladrón se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de MIDE UC. También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado.\nAdicionalmente, atiende como psicólogo clínico de forma particular y online realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.\nFormación académica: Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\n\nFormación complementaria: Data Scientist & Analyst certificado por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial (IA).\nEnseñanza: Eterno ayudante universitario e interesado en docencia, le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de Data Science/IA.\nSe encuentra en proceso de creación de diversos libros que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e IA."
+    "text": "¡Hola! Este es mi sitio web personal.\n\nAquí podrás encontrar los servicios que presto; mi curriculum;\ny algunas reflexiones o explicaciones sobre Psicología Clínica,\nPsicometría, Análisis de Datos, Programación e Inteligencia Artificial.\n\nSiéntete libre de explorar este sitio y contactarme si tienes alguna sugerencia!"
   },
   {
     "objectID": "proyectos.html",
@@ -26,6 +26,13 @@
     "title": "Libros de psicometría y código",
     "section": "",
     "text": "Libros de psicometría y código\nInducción UA es un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco. Este libro fue realizado por iniciativa propia y en ningún caso es un documento oficial.\nEnciclopedia código R es un libro que aborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.\n\n\nLibros de psicología clínica\nPrimeros Auxilios Psicológicos es un libro introductorio sobre los PAP y sus diversos modelos.\nPAP-ABCDE es un libro sobre el modelo ABCDE de la Pontificia Universidad Católica de Chile.\nTerapia de Aceptación y Compromiso es un libro sobre qué es el ACT pensando en la perspectiva y necesidad de un paciente."
+  },
+  {
+    "objectID": "about-es.html",
+    "href": "about-es.html",
+    "title": "Tom Baladrón",
+    "section": "",
+    "text": "Áreas profesionales: Tom Baladrón se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de MIDE UC. También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado.\nAdicionalmente, atiende como psicólogo clínico de forma particular y online realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.\nFormación académica: Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\n\nFormación complementaria: Data Scientist & Analyst certificado por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial (IA).\nEnseñanza: Eterno ayudante universitario e interesado en docencia, le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de Data Science/IA.\nSe encuentra en proceso de creación de diversos libros que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e IA."
   },
   {
     "objectID": "about-en.html",
@@ -54,12 +61,5 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tom Baladrón J.",
-    "section": "",
-    "text": "¡Hola! Este es mi sitio web personal.\n\nAquí podrás encontrar los servicios que presto; mi curriculum;\ny algunas reflexiones o explicaciones sobre Psicología Clínica,\nPsicometría, Análisis de Datos, Programación e Inteligencia Artificial.\n\nSiéntete libre de explorar este sitio y contactarme si tienes alguna sugerencia!"
   }
 ]

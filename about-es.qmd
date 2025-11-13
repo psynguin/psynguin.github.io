@@ -16,14 +16,13 @@ about:
 ---
 
 ::: {#hero-heading}
-- **Áreas profesionales:** Tom Baladrón se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de [MIDE UC](https://mideuc.cl/). También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado.\
-Adicionalmente, atiende como psicólogo clínico de forma particular y online realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.
+-   **Áreas profesionales:** Tom Baladrón se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de [MIDE UC](https://mideuc.cl/). También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado.\
+    Adicionalmente, atiende como psicólogo clínico de forma particular y online realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.
 
-- **Formación académica:** Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\
+-   **Formación académica:** Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\
 
-- **Formación complementaria:** Data Scientist & Analyst certificado por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial (IA).
+-   **Formación complementaria:** Data Scientist & Analyst certificado por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial (IA).
 
-- **Enseñanza:** Eterno ayudante universitario e interesado en docencia, le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de Data Science/IA.\
-Se encuentra en proceso de creación de diversos libros que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e IA.
-
+-   **Enseñanza:** Eterno ayudante universitario e interesado en docencia, le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de Data Science/IA.\
+    Se encuentra en proceso de creación de diversos libros que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e IA.
 :::

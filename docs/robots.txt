@@ -1,1 +1,1 @@
-Sitemap: https://tombaladron.com/sitemap.xml
+Sitemap: https://psynguin.github.io/sitemap.xml

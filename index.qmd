@@ -1,6 +1,6 @@
 ---
 title: "Tom Baladrón J."
-subtitle: "Psicometría y Psicología Clínica"
+subtitle: "Inteligencia Artificial | Psicometría | Psicología Clínica"
 page-layout: full
 title-block-banner: false
 toc: false
