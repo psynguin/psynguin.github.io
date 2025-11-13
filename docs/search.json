@@ -54,5 +54,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tom Baladrón J.",
+    "section": "",
+    "text": "¡Hola! Este es mi sitio web personal.\n\nAquí podrás encontrar los servicios que presto; mi curriculum;\ny algunas reflexiones o explicaciones sobre Psicología Clínica,\nPsicometría, Análisis de Datos, Programación e Inteligencia Artificial.\n\nSiéntete libre de explorar este sitio y contactarme si tienes alguna sugerencia!"
   }
 ]
