@@ -1,5 +1,5 @@
 ---
-title: "Tom Baladrón"
+title: "Tom Baladrón J."
 subtitle: "Psicometría y Psicología Clínica"
 page-layout: full
 title-block-banner: false
@@ -7,16 +7,16 @@ toc: false
 about:
   template: jolla
   image: images/tom-avatar.png
+format:
+  html:
+    link-external-icon: false
+    link-external-newwindow: false
 ---
 
-Hola! Soy Tom. Este es mi **sitio web personal**. Aquí podrás encontrar contenido sobre Psicometría/Análisis de Datos, tanto desde lo teórico como desde su puesta en escena en código; y sobre psicología clínica, específicamente teoría cognitivo conductual y neuropsicología (test psicológicos clínicos). Siéntete libre de explorar este sitio y [contactarme](mailto:tfbaladron@uc.cl) si tienes alguna sugerencia!
-
-👩‍💻 [sobre](about.qmd) (en construcción 🚧)
-
-📑 [posts del blog](posts/en.qmd) (en construcción 🚧)
-
-👩‍🏫 [libros](libros.qmd) (en construcción 🚧)
-
-📚 [Projetos](projects/index.qmd) (en construcción 🚧)
-
-🎓 [Artículos/Investigación](research/index.qmd) (en construcción 🚧)
+¡Hola! Este es mi **sitio web personal**. \
+\
+Aquí podrás encontrar los servicios que presto; mi curriculum; \
+y algunas reflexiones o explicaciones sobre Psicología Clínica, \
+Psicometría, Análisis de Datos, Programación e Inteligencia Artificial.\
+\
+Siéntete libre de explorar este sitio y [contactarme](mailto:tfbaladron@uc.cl) si tienes alguna sugerencia!

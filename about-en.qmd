@@ -15,24 +15,6 @@ about:
       href: https://www.linkedin.com/
 ---
 
-<center>
-
-::: {.btn-group role="group" aria-label="About"}
-<a href="about-en.html"> 
-<button type="button" class="btn btn-primary me-md-2 btn-sm">English</button>
-</a> 
-<a href="about-es.html"> 
-<button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button>
-</a>
-:::
-
-</center>
-
 ::: {#hero-heading}
-- **Formación académica:** Beatriz Milz tiene un doctorado en Ciencia Ambiental. Es una investigadora interesada en temas como la gestión de recursos hídricos, la transparencia y los datos abiertos, la ciencia de datos ambientales, y el género y el medio ambiente. Actualmente está realizando una investigación postdoctoral en la Universidad Federal del ABC (UFABC).
-
-- **Revistas científicas:** Desde 2018, forma parte del equipo ejecutivo de la revista [Ambiente & Sociedade](https://www.scielo.br/j/asoc/). Desde 2024, es **editora de revisión por pares de software** en [rOpenSci](https://ropensci.org/), y también forma parte del equipo ejecutivo de la [Revista Diálogos Socioambientales](https://periodicos.ufabc.edu.br/index.php/dialogossocioambientais/index).
-
-- **Enseñanza:** Es [instructora certificada de tidyverse por RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/). Tiene experiencia enseñando R en cursos en [Curso-R](https://curso-r.com/), en [cebrap.lab](https://cebrap.org.br/cebrap-lab/), y en el [Programa de Verano del Instituto de Matemática y Estadística (IME) – Universidad de São Paulo (USP)](https://www.ime.usp.br/verao/).
-
-- **Comunidades:** Desde 2018, es [coorganizadora de R-Ladies São Paulo](https://rladies-sp.org/). También es una [GitHub Star](https://stars.github.com/profiles/beatrizmilz/), un reconocimiento de GitHub para personas que son expertas técnicas y líderes que comparten su conocimiento con la comunidad. Al 09/04/2024, solo había [73 GitHub Stars en el mundo](https://stars.github.com/profiles/), y [solo 8 de ellas en Brasil](https://stars.github.com/profiles/?country=Brazil).
+**Próximamente**
+:::

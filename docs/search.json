@@ -1,52 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tom Baladrón",
-    "section": "",
-    "text": "Hola! Soy Tom. Este es mi sitio web personal. Aquí podrás encontrar contenido sobre Psicometría/Análisis de Datos, tanto desde lo teórico como desde su puesta en escena en código; y sobre psicología clínica, específicamente teoría cognitivo conductual y neuropsicología (test psicológicos clínicos). Siéntete libre de explorar este sitio y contactarme si tienes alguna sugerencia!\n👩‍💻 sobre (en construcción 🚧)\n📑 posts del blog (en construcción 🚧)\n👩‍🏫 libros (en construcción 🚧)\n📚 Projetos (en construcción 🚧)\n🎓 Artículos/Investigación (en construcción 🚧)"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Ordenar por\n      Por defecto\n      \n        Título\n      \n      \n        Fecha - Menos reciente\n      \n      \n        Fecha - Más reciente\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n16 jun 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n13 jun 2025\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "about-en.html",
-    "href": "about-en.html",
-    "title": "Tom Baladrón",
-    "section": "",
-    "text": "English   Español \n\n\n\n\nFormación académica: Beatriz Milz tiene un doctorado en Ciencia Ambiental. Es una investigadora interesada en temas como la gestión de recursos hídricos, la transparencia y los datos abiertos, la ciencia de datos ambientales, y el género y el medio ambiente. Actualmente está realizando una investigación postdoctoral en la Universidad Federal del ABC (UFABC).\nRevistas científicas: Desde 2018, forma parte del equipo ejecutivo de la revista Ambiente & Sociedade. Desde 2024, es editora de revisión por pares de software en rOpenSci, y también forma parte del equipo ejecutivo de la Revista Diálogos Socioambientales.\nEnseñanza: Es instructora certificada de tidyverse por RStudio. Tiene experiencia enseñando R en cursos en Curso-R, en cebrap.lab, y en el Programa de Verano del Instituto de Matemática y Estadística (IME) – Universidad de São Paulo (USP).\nComunidades: Desde 2018, es coorganizadora de R-Ladies São Paulo. También es una GitHub Star, un reconocimiento de GitHub para personas que son expertas técnicas y líderes que comparten su conocimiento con la comunidad. Al 09/04/2024, solo había 73 GitHub Stars en el mundo, y solo 8 de ellas en Brasil."
-  },
-  {
     "objectID": "about-es.html",
     "href": "about-es.html",
     "title": "Tom Baladrón",
     "section": "",
-    "text": "English   Español \n\n\n\n\nFormación académica: Beatriz Milz tiene un doctorado en Ciencia Ambiental. Es una investigadora interesada en temas como la gestión de recursos hídricos, la transparencia y los datos abiertos, la ciencia de datos ambientales, y el género y el medio ambiente. Actualmente está realizando una investigación postdoctoral en la Universidad Federal del ABC (UFABC).\nRevistas científicas: Desde 2018, forma parte del equipo ejecutivo de la revista Ambiente & Sociedade. Desde 2024, es editora de revisión por pares de software en rOpenSci, y también forma parte del equipo ejecutivo de la Revista Diálogos Socioambientales.\nEnseñanza: Es instructora certificada de tidyverse por RStudio. Tiene experiencia enseñando R en cursos en Curso-R, en cebrap.lab, y en el Programa de Verano del Instituto de Matemática y Estadística (IME) – Universidad de São Paulo (USP).\nComunidades: Desde 2018, es coorganizadora de R-Ladies São Paulo. También es una GitHub Star, un reconocimiento de GitHub para personas que son expertas técnicas y líderes que comparten su conocimiento con la comunidad. Al 09/04/2024, solo había 73 GitHub Stars en el mundo, y solo 8 de ellas en Brasil."
+    "text": "Áreas profesionales: Tom Baladrón se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de MIDE UC. También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado.\nAdicionalmente, atiende como psicólogo clínico de forma particular y online realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.\nFormación académica: Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\n\nFormación complementaria: Data Scientist & Analyst certificado por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial (IA).\nEnseñanza: Eterno ayudante universitario e interesado en docencia, le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de Data Science/IA.\nSe encuentra en proceso de creación de diversos libros que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e IA."
   },
   {
-    "objectID": "libros.html",
-    "href": "libros.html",
-    "title": "Libros de psicometría y código",
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Untitled",
     "section": "",
-    "text": "Libros de psicometría y código\nInducción UA es un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco. Este libro fue realizado por iniciativa propia y en ningún caso es un documento oficial.\nEnciclopedia código R es un libro que aborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.\n\n\nLibros de psicología clínica\nPrimeros Auxilios Psicológicos es un libro introductorio sobre los PAP y sus diversos modelos.\nPAP-ABCDE es un libro sobre el modelo ABCDE de la Pontificia Universidad Católica de Chile.\nTerapia de Aceptación y Compromiso es un libro sobre qué es el ACT pensando en la perspectiva y necesidad de un paciente."
+    "text": "placeholder"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -56,10 +21,38 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Untitled",
+    "objectID": "libros.html",
+    "href": "libros.html",
+    "title": "Libros de psicometría y código",
     "section": "",
-    "text": "placeholder"
+    "text": "Libros de psicometría y código\nInducción UA es un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco. Este libro fue realizado por iniciativa propia y en ningún caso es un documento oficial.\nEnciclopedia código R es un libro que aborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.\n\n\nLibros de psicología clínica\nPrimeros Auxilios Psicológicos es un libro introductorio sobre los PAP y sus diversos modelos.\nPAP-ABCDE es un libro sobre el modelo ABCDE de la Pontificia Universidad Católica de Chile.\nTerapia de Aceptación y Compromiso es un libro sobre qué es el ACT pensando en la perspectiva y necesidad de un paciente."
+  },
+  {
+    "objectID": "about-en.html",
+    "href": "about-en.html",
+    "title": "Tom Baladrón",
+    "section": "",
+    "text": "Próximamente"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Ordenar por\n      Por defecto\n      \n        Título\n      \n      \n        Fecha - Menos reciente\n      \n      \n        Fecha - Más reciente\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n16 jun 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n13 jun 2025\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]
