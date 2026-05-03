@@ -1,19 +1,50 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Sobre Mí / About Me"
+image: images/tom-avatar.png
 about:
-  template: jolla
+  template: solana
+  image-width: 15em
+  image-shape: round
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: envelope
+      text: Email
+      href: mailto:tfbaladron@uc.cl
+    - icon: github
+      text: GitHub
+      href: https://github.com/psynguin
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
+      href: https://www.linkedin.com/in/tom-baladr%C3%B3n-733642145/
 ---
 
-About this blog
+::::: {.column-page}
+
+:::: {.panel-tabset}
+
+## Español
+
+- **Áreas Profesionales:** Se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de [MIDE UC](https://mideuc.cl/). También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado y posgrado.\
+  Adicionalmente, atiende como psicólogo clínico realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.
+
+- **Formación Clínica:** Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola y actualmente cursa un diplomado en Terapia de Aceptación y Compromiso en la PUC. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.
+
+- **Formación Ciencia de Datos / Inteligencia Artificial:** Actualmente se encuentra realizando su [Magíster en Inteligencia Artificial UC](https://mia.uc.cl/). Además tiene formación como Data Scientist & Data Analyst certificada por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial. Para ver el detalle de los cursos revisar mi CV.
+
+- **Docencia:** Ayudante universitario, tutor académico para estudiantes de psicología en diversas modalidades e interesado en docencia. Le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de la ciencia de datos e Inteligencia Artificial.\
+  Se encuentra en proceso de creación de diversos libros e insumos tecnológicos que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e Inteligencia Artificial.
+
+## English
+
+- **Professional Areas:** Works as a professional analyst at the Psychometrics and Data Analysis Unit of [MIDE UC](https://mideuc.cl/). He also provides private data management and analysis services, as well as methodological support for undergraduate and graduate thesis students.\
+  Additionally, he practices as a clinical psychologist providing therapy, neuropsychological evaluation processes, and vocational explorations.
+
+- **Clinical Background:** Clinical Psychologist from the Pontificia Universidad Católica de Chile (PUC). He continued his clinical studies with a diploma in Cognitive Behavioral Therapy at Instituto Ikastola and is currently pursuing a diploma in Acceptance and Commitment Therapy at the PUC. He holds certifications and knowledge in how to apply and interpret various intelligence, cognitive skills, personality, and competencies tests.
+
+- **Data Science / Artificial Intelligence Background:** He is currently pursuing his [Master's in Artificial Intelligence UC](https://mia.uc.cl/). Additionally, he has certified training as a Data Scientist & Data Analyst by Google and DataCamp. He has completed multiple courses and specializations from various universities worldwide on Research Methods, Statistics, R Programming, Quarto, Python, SQL, Programming/Algorithms, Mathematics, and Artificial Intelligence. For course details, please refer to my CV.
+
+- **Teaching:** University teaching assistant and academic tutor for psychology students in various modalities, with a strong interest in education. He is passionate about creating materials that facilitate understanding of complex concepts in both the clinical field and the world of Data Science and Artificial Intelligence.\
+  He is currently in the process of creating several books and technological resources addressing therapy methods (Acceptance and Commitment Therapy), psychological first aid (PAP-ABCDE), psychometrics, programming, and Artificial Intelligence.
+
+::::
+
+:::::

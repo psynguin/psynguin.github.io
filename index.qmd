@@ -1,22 +1,27 @@
 ---
-title: "Tom Baladrón J."
-subtitle: "Inteligencia Artificial | Psicometría | Psicología Clínica"
-page-layout: full
-title-block-banner: false
-toc: false
+title: "Tom Baladrón"
+image: images/pic.JPG
 about:
-  template: jolla
-  image: images/tom-avatar.png
-format:
-  html:
-    link-external-icon: false
-    link-external-newwindow: false
+  template: trestles
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tom-baladr%C3%B3n-733642145/
+    - icon: github
+      text: GitHub
+      href: https://github.com/psynguin
+    - icon: envelope
+      text: Email
+      href: mailto:tfbaladron@uc.cl
 ---
 
-¡Hola! Este es mi **sitio web personal**. \
-\
-Aquí podrás encontrar los servicios que presto; mi curriculum; \
-y algunas reflexiones o explicaciones sobre Psicología Clínica, \
-Psicometría, Análisis de Datos, Programación e Inteligencia Artificial.\
-\
-Siéntete libre de explorar este sitio y [contactarme](mailto:tfbaladron@uc.cl) si tienes alguna sugerencia!
+#### [Psicólogo Clínico | Psicometrista | Inteligencia Artificial]{style="color: #7f8c8d; font-weight: 300; letter-spacing: 1px;"}
+
+<hr style="width: 100px; height: 3px; background-color: #2c3e50; border: none; margin: 2rem 0;">
+
+Psicólogo clínico y cientísta de datos en psicometría. Ejerzo la psicoterapia basada en evidencia en consulta privada y, de forma paralela, me desempeño como psicometrista en MIDE UC. En este rol, mi trabajo analítico se centra en el análisis psicométrico de estudios a gran escala, la visualización de datos con reportería automatizada, el despliegue de aplicaciones y dashboards web con resultados en la nube, y la integración de inteligencia artificial.
+
+<br>
+

@@ -1,18 +1,72 @@
 ---
-title: ""
-editor: visual
+title: "Books"
+page-layout: full
 ---
 
-# Libros de psicometría y código
+::::: {.column-page}
 
-[Inducción UA](https://psynguin.github.io/InduccionUA/) es un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco. Este libro fue realizado por iniciativa propia y en ningún caso es un documento oficial.
+## [Libros de Psicometría y Programación]{style="color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px;"}
 
-[Enciclopedia código R](https://psynguin.github.io/enciclopediaR/) es un libro que aborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.
+:::: {layout-ncol=2}
 
-# Libros de psicología clínica
+::: {.card .p-3 .shadow-sm .h-100 style="border-left: 5px solid #2c3e50;"}
 
-[Primeros Auxilios Psicológicos](https://youtu.be/dQw4w9WgXcQ?si=vYDgj3Lqr1SXcEzB) es un libro introductorio sobre los PAP y sus diversos modelos.
+### Inducción UA
 
-[PAP-ABCDE](https://youtu.be/dQw4w9WgXcQ?si=vYDgj3Lqr1SXcEzB) es un libro sobre el modelo ABCDE de la Pontificia Universidad Católica de Chile.
+Un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco.
 
-[Terapia de Aceptación y Compromiso](https://youtu.be/dQw4w9WgXcQ?si=vYDgj3Lqr1SXcEzB) es un libro sobre qué es el ACT pensando en la perspectiva y necesidad de un paciente.
+[Ir al libro →](https://psynguin.github.io/InduccionUA/){.btn .btn-outline-primary .btn-sm}
+
+:::
+
+::: {.card .p-3 .shadow-sm .h-100 style="border-left: 5px solid #2c3e50;"}
+
+### Enciclopedia código R
+
+Aborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.
+
+[Ir al libro →](https://psynguin.github.io/enciclopediaR/){.btn .btn-outline-primary .btn-sm}
+
+:::
+
+::::
+
+<br>
+
+## [Libros de Psicología Clínica]{style="color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px;"}
+
+:::: {layout-ncol=3}
+
+::: {.card .p-3 .shadow-sm .h-100 style="border-left: 5px solid #2c3e50;"}
+
+### Primeros Auxilios Psicológicos
+
+Libro introductorio sobre los PAP y sus diversos modelos.
+
+[Ir al libro →](https://youtu.be/dQw4w9WgXcQ?si=vYDgj3Lqr1SXcEzB){.btn .btn-outline-primary .btn-sm}
+
+:::
+
+::: {.card .p-3 .shadow-sm .h-100 style="border-left: 5px solid #2c3e50;"}
+
+### PAP-ABCDE
+
+Enfoque en el modelo ABCDE de la Pontificia Universidad Católica de Chile.
+
+[Ir al libro →](https://youtu.be/dQw4w9WgXcQ?si=vYDgj3Lqr1SXcEzB){.btn .btn-outline-primary .btn-sm}
+
+:::
+
+::: {.card .p-3 .shadow-sm .h-100 style="border-left: 5px solid #2c3e50;"}
+
+### Terapia de Aceptación y Compromiso
+
+Qué es el ACT pensando en la perspectiva y necesidad de un paciente.
+
+[Ir al libro →](https://youtu.be/dQw4w9WgXcQ?si=vYDgj3Lqr1SXcEzB){.btn .btn-outline-primary .btn-sm}
+
+:::
+
+::::
+
+:::::

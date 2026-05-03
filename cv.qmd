@@ -1,0 +1,295 @@
+---
+title: "TOMÁS FRANCISCO BALADRÓN JARAMILLO"
+format: 
+  html:
+    fontsize: "11pt"
+    css: styles.css
+editor: visual
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+library(tidyverse)
+library(gt)
+library(reactable)
+library(commonmark)
+library(htmltools)
+
+table1 <- 
+  tribble(
+    ~rol, ~institucion,
+    "Psicólogo", "Pontificia Universidad Católica de Chile (PUC)",
+    "Analista profesional / Psicometrista", "MIDE UC"
+  )
+
+table2 <- 
+  tribble(
+    ~year, ~institucion, ~curso,
+    "2026 - actual", "PUC", "Magíster en Inteligencia Artificial",
+    "2026 - actual", "PUC", "Diplomado en Terapia de Aceptación y Compromiso",
+    "2025 - 2025", "Instituto Ikastola", "Diplomado en Terapia Cognitiva Conductual",
+    "2019 - 2024", "PUC", "Pregrado Psicología",
+    "2015 - 2018", "PUC", "Pregrado Odontología",
+    "2013 - 2014", "PUC", "Pregrado College Ciencias Naturales, traspaso a los 200 créditos",
+    "2002 - 2012", "The Grange School", "Enseñanza Básica y Media"
+  )
+
+table3 <-
+  tribble(
+    ~year, ~institucion, ~rol,
+    "2025 - actual", "Consulta privada", "<strong> Psicólogo clínico  </strong>",
+    "2025 - actual", "MIDE UC", "<strong> Analista Profesional</strong>, Unidad de Psicometría y Análisis de Datos",
+    "2014 - actual", "PUC", 
+        "<p> <strong> Ayudante de laboratorio, corrector de pruebas y de cátedra. </strong> </p> 
+    <details><summary> Cursos: </summary> 
+    <ul> 
+      <li> <strong> Psicología Aplicada a Emergencias y Desastres </strong>; profesor: PhD. Humberto Marín (3 veces). </li> 
+      <li> <strong> Metodologías de Investigación en Psicología </strong>; profesor: PhD. Marcela Peña (2 veces). </li> 
+      <li> <strong> Taller III </strong>; profesor: PhD. Marcela Peña (5 veces). </li> 
+      <li> <strong> Métodos de investigación cualitativa </strong>; profesor: Mg. Alex Torres (5 veces). </li> 
+      <li> <strong> Filosofía: ¿Para Qué? </strong>; profesor: PhD. Vicente García-Huidobro (5 veces). </li> 
+      <li> <strong> Verdad y Justicia </strong>; profesor: PhD. Vicente García-Huidobro. </li> 
+      <li> <strong> Química para Agronomía </strong>; profesor: PhD. Christian Espinosa. </li> 
+      <li> <strong> Química General II </strong>; profesor: PhD. Christian Espinosa. </li> 
+    </ul> 
+    </details>",
+   "2021 - actual", "PUC", 
+    "<p>  <strong> Tutor académico </strong> de diversos cursos de la carrera de psicología, coordinado por Natalia López y María de los Ángeles Herane. </p> 
+  <details><summary> Cursos: </summary> 
+  <ul> <li> <strong> Procesos Psicológicos Básicos </strong> - PSI1101. </li> 
+  <li> <strong> Fundamentos Biológicos del Comportamiento </strong> - PSI1204. </li> 
+  <li> <strong> Metodologías de Investigación en Psicología </strong> - PSI1203 (2 veces).</li> 
+  <li> <strong> Métodos de Investigación Cuantitativa </strong> - PSI2301. </li>
+  <li> <strong> Apoyo individual para examen de licenciatura en psicología </strong>. </li> 
+  <li> <strong> Apoyo grupal para examen de licenciatura en psicología </strong>. </li> 
+  <li> <strong> Apoyo individual Psicoanálisis </strong> - PSI2303. </li> 
+  </ul> </details>",
+    "2024 - 2025 ", "MIDE UC", " <strong> Analista Junior</strong>, Unidad de Psicometría y Análisis de Datos",
+    "2024 - 2024 ", "MIDE UC", " <strong>Pasante</strong>, Unidad de Psicometría y Análisis de Datos",
+    "2023 - 2024 ", "PUC", " <strong> Práctica profesional como psicólogo clínico </strong> en COSAM La Reina, bajo la supervisión de PhD. Verónica Bagladi",
+    "2023 - 2023", "PUC", "<strong> Pre-práctica profesional como psicólogo clínico </strong> en COSAM independencia, bajo la supervisión de PhD. Candice Fischer",
+    "2021 - 2022", "PUC", "<strong> Ayudante coordinador </strong> de cursos, a cargo de PhD. Vicente García-Huidobro."
+  )
+
+table4 <-
+  tribble(
+    ~disciplina, ~cursos, ~institucion,
+    "Psicología Clínica", "Curso: **Learn Interpersonal Psychotherapy**","University of Toronto",
+    "Psicología Clínica", "Curso: **Psychological First Aid**","John Hopkins University",
+    "Psicología Clínica", "Curso: **Psychological First Aid (PFA) Online**","NCTSN",
+    "Psicología Clínica", "Curso: **Alternatives for Families: A Cognitive Behavioral Therapy (AF-CBT) Foundations of AF CBT**","NCTSN",
+    "Psicología Clínica", "Curso: **The 12 Core Concepts of Trauma: An Online Interactive Course**","NCTSN",
+    "Psicología Clínica", "Curso: **Skills for Psychological Recovery (SPR) Online**","NCTSN",
+    "Psicología Clínica", "Capacitación: **Modelo ABCDE-PAP**", "Humberto Marín",
+    "Psicología Clínica", "Certificado: **QualityRights: MENTAL HEALTH, RECOVERY AND COMMUNITY INCLUSION**", "World Health Organization (WHO)",
+    "Python", "Curso: **Introducción a la programación en Python I: Aprendiendo a programar con Python** \n\n Curso: **Programación en Python II: aprendiendo a estructurar datos**", "PUC",
+    "Python", "Especialización: **Python for Everybody**\n\n Cursos: \n- Programming for Everybody (Getting Started with Python). \n- Python Data Structures. \n- Using Python to Access Web Data. \n- Using Databases with Python. \n- Capstone: Retrieving, Processing, and Visualizing Data with Python.", "University of Michigan",
+    "Python", "Especialización: **Python 3 Programming** (en curso) \n\n Cursos: \n- Python Basics. \n- Python Functions, Files, and Dictionaries. \n- Data Collection and Processing with Python. \n- Python Classes and Inheritance. \n- Python Project: Software Engineering and Image Manipulation.", "University of Michigan",
+    "R Programming", "Especialización: **Data Analysis with R** \n\n Cursos: \n- Introduction to Probability and Data with R. \n- Inferential Statistics. \n- Linear Regression and Modeling.", "Duke University",
+    "R Programming", "Especialización: **Data Analyst in R** \n\n Cursos: \n- Introduction to R. \n- Introduction to the Tidyverse. \n- Joining Data with dplyr. \n- Data Manipulation with dplyr. \n- Exploratory Data Analysis in R. \n- Hypothesis Testing in R. \n- Introduction to Data Visualization with ggplot2. \n- Introduction to Statistics in R. \n- Sampling in R.", "DataCamp",
+    "R Programming", "Curso: **Introducción a Data Science: Programación Estadística con R**", "Universidad Nacional Autónoma de México",
+    "SQL", "Especialización: **SQL Fudamentals** \n\n Cursos: \n- Data Manipulation in SQL. \n- Database Design. \n- Functions for Manipulating Data in PostgreSQL. \n- Intermediate SQL. \n- Introduction to SQL. \n- Joining Data in SQL. \n- PostgreSQL Summary Stats and Window Functions.", "DataCamp",
+    "SQL", "Especialización: **Data Analyst in SQL** \n\n Cursos: \n- Data Manipulation in SQL. \n- Intermediate SQL. \n- Introduction to Statistics. \n- Understanding Data Visualization. \n- Data Communication Concepts. \n- Data-Driven Decision Making in SQL. \n- Exploratory Data Analysis in SQL. \n- Functions for Manipulating Data in PostgreSQL. \n- Introduction to SQL. \n- Joining Data in SQL. \n- PostgreSQL Summary Stats and Window Functions.", "DataCamp",
+    "SQL", "Certificado: **Associate Data Analyst in SQL** \n\n Evaluaciones: \n- Timed exam (DA101). \n- Practical exam (DA601P).", "DataCamp",
+  "Ciencia de Datos", "Certificado: **Google Data Analytics** \n\n Cursos: \n- Foundations: Data, Data, Everywhere. \n- Ask Questions to Make Data-Driven Decisions. \n- Prepare Data for Exploration. \n- Process Data from Dirty to Clean. \n- Analyze Data to Answer Questions. \n- Share Data Through the Art of Visualization. \n- Data Analysis with R Programming. \n- Google Data Analytics Capstone: Complete a Case Study.", "Google",
+    "Ciencia de Datos", "Certificado: **Google Advanced Data Analytics** \n\n Cursos: \n- Foundations of Data Science. \n- Get Started with Python. \n- Go Beyond the Numbers: Translate Data into Insights. \n- The Power of Statistics. \n- Regression Analysis: Simplify Complex Data Relationships. \n- The Nuts and Bolts of Machine Learning. \n- Google Advanced Data Analytics Capstone. ", "Google",
+    "Desarrollo Web", "Diplomado: **Fundamentos de la Programación y Desarrollo Web** \n\n Cursos: \n- Fundamentos de Programación. \n- Introducción a la Programación. \n- Programación con Javascript.", "Fundación Telefónica Movistar, Sence y en colaboración con la Universidad de Playa Ancha",
+    "Desarrollo Web", "Diplomado: **Diseño y Programación Web**  \n\n Cursos: \n- Aprende WordPress de forma sencilla. \n- Diseño Web con HTML5+CSS. \n- Programación con JavaScript.", "AIEP de la Universidad Andrés Bello, Sence y Fundación Telefónica Movistar",
+    "Ciencias de la Computación", "Curso: **Introduction to Computer Science - CS50x** (rendido informalmente)", "Harvard University",
+    "Matemática", "Especialización: **Mathematics for Engineers** (en curso) \n\n Cursos: \n- Matrix Algebra for Engineers. \n- Differential Equations for Engineers. \n- Vector Calculus for Engineers. \n- Numerical Methods for Engineers. \n- Mathematics for Engineers: The Capstone Course. ", "The Hong Kong University of Science and Technology",
+    "Matemática", "Especialización: **Mathematics for Machine Learning** (en curso) \n\n Cursos: \n- Linear Algebra. \n- Multivariate Calculus. \n- PCA.", "Imperial College London",
+    "Inteligencia Artificial", "Certificado: **AI Fundamentals** \n\n Cursos: \n- Understanding Artificial Intelligence. \n- Understanding ChatGPT. \n- Understanding Machine Learning. \n- Large Language Models (LLMs) Concepts. \n- Generative AI Concepts. \n- AI Ethics.", "Datacamp",
+    "Inteligencia Artificial", "Especialización: **Elements of AI** \n\n Cursos: \n- What is AI?. \n- AI problem solving. \n- Real world AI. \n- Machine learning. \n- Neural networks. \n- Implications.", "elementsofai.com"
+  ) %>% 
+  mutate(
+    cursos = map_chr(cursos, markdown_html),
+    cursos = str_replace(
+      string = cursos,
+      pattern = regex("<p>(Cursos:|Evaluaciones:)\\s*</p>\\s*(<ul>.*?</ul>)", dotall = TRUE),
+      replacement = "<details><summary> \\1 </summary>\n\\2\n</details>"
+    )
+  )
+
+table5 <-
+  tribble(
+    ~autor, ~contacto, ~mail,
+    "Vicente García Huidobro", "PhD. Psicoterapeuta y docente, PUC", "vicentegha@gmail.com",
+"Humberto Marín", "PhD. Psicólogo y docente, PUC", "humarin@uc.cl.",
+"Marcela Peña", "PhD. Médica pediatra y docente, PUC", "mpenag@uc.cl",
+"Alex Torres", "Mg. Psicólogo y docente, PUC <br> Encargado de resultados de Unidad de Psicometría y Análisis de Datos, MIDE UC", "atorresp@uc.cl",
+"Christian Espinosa", "PhD. en Química y docente, PUC", "ccespino@uc.cl",
+"Natalia López", "Mg. Psicóloga y coordinadora de asuntos estudiantiles, PUC", "nplopez@uc.cl",
+"María de los Ángeles Herane", "Mg. Psicóloga y coordinadora de asuntos estudiantiles, PUC", "mherane@uc.cl",
+"Andrea Abarzua Morasso",	"Mg. Psicóloga, coordinadora de Unidad de Psicometría y Análisis de Datos, MIDE UC", "raabarzu@uc.cl"
+  )
+
+string <- 
+  "
+  Psicólogo, Pontificia Universidad Católica de Chile (PUC)
+  Analista de datos / Psicometría, MIDE UC
+  "
+```
+
+Psicólogía Clínica \| Data Science \| Psicometría \| Inteligencia Artificial
+
+```{r}
+#| fig-align: center
+#| eval: false
+
+table1 %>% 
+  reactable(
+    pagination = FALSE,
+    theme = reactableTheme(
+      headerStyle = list(display = "none")
+    ),
+    defaultColDef = colDef(align = "center", vAlign = "center")
+  )
+```
+
+### Contacto:
+
+- **Mail**: tfbaladron\@uc.cl
+
+### Antecedentes académicos:
+
+```{r}
+#| fig-width: 100
+table2 %>% 
+  reactable(
+    pagination = FALSE,
+    bordered = TRUE,
+    theme = reactableTheme(
+      headerStyle = list(display = "none")
+    ),
+    defaultColDef = colDef(align = "center", vAlign = "center"),
+    columns = list(
+      year = colDef(width = 105),
+      institucion = colDef(width = 170)
+    )
+  )
+```
+
+### Antecedentes Laborales:
+
+```{r}
+table3 %>% 
+  reactable(
+    pagination = FALSE,
+    defaultColDef = colDef(align = "center", vAlign = "center"),
+    theme = reactableTheme(
+      headerStyle = list(display = "none")
+    ),
+    columns = list(
+      rol = colDef(html = TRUE, align = "left"),
+      year = colDef(width = 105),
+      institucion = colDef(width = 170)
+    )
+  )
+```
+
+### Formación Complementaria
+
+```{r}
+
+tipos <- table4 %>% distinct(disciplina)
+
+expand_btn <- tags$button(
+  "Expandir Todo", 
+  onclick = "Reactable.toggleAllRowsExpanded('my-grouped-table', true)"
+)
+
+collapse_btn <- tags$button(
+  "Collapsar Todo", 
+  onclick = "Reactable.toggleAllRowsExpanded('my-grouped-table', false)"
+)
+
+table_04 <- reactable(
+  data = tipos,
+  elementId = "my-grouped-table",
+  pagination = FALSE,
+  borderless = TRUE, 
+  defaultExpanded = TRUE,
+  theme = reactableTheme(
+      headerStyle = list(display = "none")
+    ),
+  columns = list(
+    disciplina = colDef(
+      style = list(fontWeight = "bold", fontSize = "22px")
+    )
+  ),
+  details = function(index) {
+    
+    var_name <- tipos$disciplina[index]
+    
+    data_col <- table4 %>%
+      filter(disciplina == var_name) %>%
+      mutate(cursos = map_chr(cursos, markdown_html)) %>% 
+      select(-disciplina)
+    
+    htmltools::div(
+      style = glue::glue("width: 80%; margin: 0 auto;"),
+      reactable(
+        data = data_col,
+        outlined = TRUE,
+        fullWidth = TRUE,
+        defaultColDef = colDef(align = "center", vAlign = "center"),
+        theme = reactableTheme(
+          cellStyle = list(
+            borderRight = "1px solid #D3D3D3",
+            borderBottom = "1px solid #D3D3D3"
+          ),
+          headerStyle = list(
+            borderRight = "1px solid #D3D3D3",
+            borderBottom = "1px solid #D3D3D3",
+            background = "#F0F0F0"
+          )
+        ),
+        columns = list(
+          cursos = colDef(html = TRUE)
+        )
+      )
+    )
+  }
+)
+
+browsable(
+  tagList(
+    tags$style("
+      /* Force the expander button and its internal arrow to scale up */
+      .rt-expander-button {
+        transform: scale(1.8) !important; /* Increase or decrease this multiplier */
+        transform-origin: center !important;
+      }
+    "),
+    div(
+      style = "display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 10px;",
+      expand_btn, 
+      collapse_btn
+    ),
+    table_04
+  )
+)
+```
+
+### Referencias
+
+```{r}
+table5 %>%
+  reactable(
+    pagination = FALSE,
+    defaultColDef = colDef(align = "center", vAlign = "center"),
+    columns = list(
+      contacto = colDef(align = "left", width = 400, html = TRUE),
+      autor = colDef(width = 220),
+      mail = colDef(width = 180)
+    )
+  )
+```
+
+### Información Adicional
+
+- **N° registro prestador de salud**: 844226.
+- **Fecha de nacimiento**: 24 de mayo 1994.
+- **Portafolio**: [Portafolio Tom Baladrón (Psynguin)](https://github.com/psynguin).

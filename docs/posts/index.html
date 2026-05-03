@@ -2,14 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tom Baladrón">
 
-<title>Posts – Tom Baladrón</title>
+<title>Blog – Tom Baladrón</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-aca22c8e6dc2bb0d5654c5a93db73407.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -102,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -115,7 +118,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -131,7 +134,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,78 +143,37 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Tom Baladrón</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Buscar"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="../about-es.html">
- <span class="dropdown-text">Español</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../about-en.html">
- <span class="dropdown-text">English</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-posts" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Posts</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-posts">    
-        <li>
-    <a class="dropdown-item" href="../posts/index.html">
- <span class="dropdown-text">Todos</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts/index.html">
- <span class="dropdown-text">Psicología Clínica</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts/index.html">
- <span class="dropdown-text">Psicometría</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts/index.html">
- <span class="dropdown-text">Programación</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts/index.html">
- <span class="dropdown-text">Inteligencia Artificial</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../libros.html"> 
-<span class="menu-text">Libros</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../proyectos.html"> 
-<span class="menu-text">Proyectos</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/psynguin"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/tom-baladr%C3%B3n-733642145/"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../comision.html"> 
+<span class="menu-text">Comisiones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../libros.html"> 
+<span class="menu-text">Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../posts/index.html" aria-current="page"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">My CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -232,7 +194,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Posts</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -273,7 +235,7 @@ window.Quarto = {
         Título
       </option>
       <option value="listing-date-sort" data-direction="asc">
-        Fecha - Menos reciente
+        Fecha - Más antiguo
       </option>
       <option value="listing-date-sort" data-direction="desc">
         Fecha - Más reciente
@@ -286,7 +248,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1750046400000" data-listing-file-modified-sort="1754276943527" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1750046400000" data-listing-file-modified-sort="1777831410148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="thumbnail"><a href="../posts/post-with-code/index.html" class="no-external">
 
 <img loading="lazy" src="../posts/post-with-code/image.jpg" class="thumbnail-image">
@@ -294,7 +256,7 @@ window.Quarto = {
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../posts/post-with-code/index.html" class="no-external">Post With Code</a>
+<a href="../posts/post-with-code/index.html" class="no-external">Proximamente</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../posts/post-with-code/index.html" class="no-external"></a>
@@ -308,15 +270,15 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1749787200000" data-listing-file-modified-sort="1750113828000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1749787200000" data-listing-file-modified-sort="1777831451323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <div class="thumbnail"><a href="../posts/welcome/index.html" class="no-external">
 
-<p class="card-img-top"><img src="welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
+<a href="../posts/welcome/index.html" class="no-external">Bienvenida al Blog</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../posts/welcome/index.html" class="no-external"></a>
@@ -384,13 +346,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

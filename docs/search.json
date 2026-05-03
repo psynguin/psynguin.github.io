@@ -1,65 +1,72 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tom Baladrón J.",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Bienvenida al Blog",
     "section": "",
-    "text": "¡Hola! Este es mi sitio web personal.\n\nAquí podrás encontrar los servicios que presto; mi curriculum;\ny algunas reflexiones o explicaciones sobre Psicología Clínica,\nPsicometría, Análisis de Datos, Programación e Inteligencia Artificial.\n\nSiéntete libre de explorar este sitio y contactarme si tienes alguna sugerencia!"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "placeholder"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "libros.html",
-    "href": "libros.html",
-    "title": "Libros de psicometría y código",
-    "section": "",
-    "text": "Libros de psicometría y código\nInducción UA es un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco. Este libro fue realizado por iniciativa propia y en ningún caso es un documento oficial.\nEnciclopedia código R es un libro que aborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.\n\n\nLibros de psicología clínica\nPrimeros Auxilios Psicológicos es un libro introductorio sobre los PAP y sus diversos modelos.\nPAP-ABCDE es un libro sobre el modelo ABCDE de la Pontificia Universidad Católica de Chile.\nTerapia de Aceptación y Compromiso es un libro sobre qué es el ACT pensando en la perspectiva y necesidad de un paciente."
-  },
-  {
-    "objectID": "about-es.html",
-    "href": "about-es.html",
-    "title": "Tom Baladrón",
-    "section": "",
-    "text": "Áreas profesionales: Tom Baladrón se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de MIDE UC. También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado.\nAdicionalmente, atiende como psicólogo clínico de forma particular y online realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.\nFormación académica: Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\n\nFormación complementaria: Data Scientist & Analyst certificado por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial (IA).\nEnseñanza: Eterno ayudante universitario e interesado en docencia, le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de Data Science/IA.\nSe encuentra en proceso de creación de diversos libros que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e IA."
-  },
-  {
-    "objectID": "about-en.html",
-    "href": "about-en.html",
-    "title": "Tom Baladrón",
-    "section": "",
-    "text": "Próximamente"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
+    "text": "proximamente"
   },
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "Posts",
+    "title": "Blog",
     "section": "",
-    "text": "Ordenar por\n      Por defecto\n      \n        Título\n      \n      \n        Fecha - Menos reciente\n      \n      \n        Fecha - Más reciente\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n16 jun 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n13 jun 2025\n\n\n\n\n\nNo hay resultados"
+    "text": "Ordenar por\n      Por defecto\n      \n        Título\n      \n      \n        Fecha - Más antiguo\n      \n      \n        Fecha - Más reciente\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProximamente\n\n\n\n\n\n\n\n\n16 jun 2025\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida al Blog\n\n\n\n\n\n\n\n\n13 jun 2025\n\n\n\n\n\nNo hay resultados"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tom Baladrón",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Psicólogo Clínico | Psicometrista | Inteligencia Artificial\n\nPsicólogo clínico y cientísta de datos en psicometría. Ejerzo la psicoterapia basada en evidencia en consulta privada y, de forma paralela, me desempeño como psicometrista en MIDE UC. En este rol, mi trabajo analítico se centra en el análisis psicométrico de estudios a gran escala, la visualización de datos con reportería automatizada, el despliegue de aplicaciones y dashboards web con resultados en la nube, y la integración de inteligencia artificial."
+  },
+  {
+    "objectID": "comision.html",
+    "href": "comision.html",
+    "title": "Solicitud de Comisión para Examen de Grado",
+    "section": "",
+    "text": "Este espacio está destinado exclusivamente para que estudiantes de psicología de la Pontificia Universidad Católica de Chile puedan horas para tener comisiones para preparar sus Exámenes de Grado.\nPor favor, una vez que el calendario cargue, selecciona una fecha y hora disponible en el calendario a continuación para coordinar la sesión. Una vez realizada la reserva, recibirás una confirmación por correo electrónico. Es importante que pongan un nombre, mail, teléfono de contacto y los nombres de los integrantes para mi coordinación interna."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Mí / About Me",
+    "section": "",
+    "text": "EspañolEnglish\n\n\n\nÁreas Profesionales: Se desempeña como analista profesional en la Unidad de Psicometría y Análisis de Datos de MIDE UC. También presta servicios de manejo y análisis de datos de forma particular y apoyo metodológico a tesistas y alumnos de pregrado y posgrado.\nAdicionalmente, atiende como psicólogo clínico realizando terapia, procesos de evaluación neuropsicológica y exploraciones vocacionales.\nFormación Clínica: Psicólogo clínico de la Pontificia Universidad Católica de Chile (PUC). Continuó sus estudios clínicos con un diplomado en Terapia Cognitiva Conductual en Instituto Ikastola y actualmente cursa un diplomado en Terapia de Aceptación y Compromiso en la PUC. Posee certificados y conocimiento en cómo aplicar e interpretar diversos test de inteligencia, habilidades cognitivas, personalidad y competencias.\nFormación Ciencia de Datos / Inteligencia Artificial: Actualmente se encuentra realizando su Magíster en Inteligencia Artificial UC. Además tiene formación como Data Scientist & Data Analyst certificada por Google y DataCamp. Posee múltiples cursos y especialidades impartidas por diversas universidades del mundo sobre Métodos de investigación, Estadística, R Programming, Quarto, Python, SQL, Programación/Algoritmos, Matemática e Inteligencia Artificial. Para ver el detalle de los cursos revisar mi CV.\nDocencia: Ayudante universitario, tutor académico para estudiantes de psicología en diversas modalidades e interesado en docencia. Le apasiona la creación de insumos que ayuden a una comprensión más amena de conceptos complejos tanto de lo clínico como del mundo de la ciencia de datos e Inteligencia Artificial.\nSe encuentra en proceso de creación de diversos libros e insumos tecnológicos que abordan métodos para hacer terapia (Terapia de Aceptación y Compromiso), primeros auxilios psicológicos (PAP-ABCDE), psicometría, programación e Inteligencia Artificial.\n\n\n\n\nProfessional Areas: Works as a professional analyst at the Psychometrics and Data Analysis Unit of MIDE UC. He also provides private data management and analysis services, as well as methodological support for undergraduate and graduate thesis students.\nAdditionally, he practices as a clinical psychologist providing therapy, neuropsychological evaluation processes, and vocational explorations.\nClinical Background: Clinical Psychologist from the Pontificia Universidad Católica de Chile (PUC). He continued his clinical studies with a diploma in Cognitive Behavioral Therapy at Instituto Ikastola and is currently pursuing a diploma in Acceptance and Commitment Therapy at the PUC. He holds certifications and knowledge in how to apply and interpret various intelligence, cognitive skills, personality, and competencies tests.\nData Science / Artificial Intelligence Background: He is currently pursuing his Master’s in Artificial Intelligence UC. Additionally, he has certified training as a Data Scientist & Data Analyst by Google and DataCamp. He has completed multiple courses and specializations from various universities worldwide on Research Methods, Statistics, R Programming, Quarto, Python, SQL, Programming/Algorithms, Mathematics, and Artificial Intelligence. For course details, please refer to my CV.\nTeaching: University teaching assistant and academic tutor for psychology students in various modalities, with a strong interest in education. He is passionate about creating materials that facilitate understanding of complex concepts in both the clinical field and the world of Data Science and Artificial Intelligence.\nHe is currently in the process of creating several books and technological resources addressing therapy methods (Acceptance and Commitment Therapy), psychological first aid (PAP-ABCDE), psychometrics, programming, and Artificial Intelligence."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "TOMÁS FRANCISCO BALADRÓN JARAMILLO",
+    "section": "",
+    "text": "Psicólogía Clínica | Data Science | Psicometría | Inteligencia Artificial\n\nContacto:\n\nMail: tfbaladron@uc.cl\n\n\n\nAntecedentes académicos:\n\n\n\n\nAntecedentes Laborales:\n\n\n\n\nFormación Complementaria\n\n\nExpandir Todo\nCollapsar Todo\n\n\n\n\n\nReferencias\n\n\n\n\nInformación Adicional\n\nN° registro prestador de salud: 844226.\nFecha de nacimiento: 24 de mayo 1994.\nPortafolio: Portafolio Tom Baladrón (Psynguin)."
+  },
+  {
+    "objectID": "libros.html",
+    "href": "libros.html",
+    "title": "Books",
+    "section": "",
+    "text": "Un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco.\nIr al libro →\n\n\n\nAborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.\nIr al libro →\n\n\n\n\n\n\n\n\n\n\n\nLibro introductorio sobre los PAP y sus diversos modelos.\nIr al libro →\n\n\n\nEnfoque en el modelo ABCDE de la Pontificia Universidad Católica de Chile.\nIr al libro →\n\n\n\nQué es el ACT pensando en la perspectiva y necesidad de un paciente.\nIr al libro →"
+  },
+  {
+    "objectID": "libros.html#libros-de-psicometría-y-programación",
+    "href": "libros.html#libros-de-psicometría-y-programación",
+    "title": "Books",
+    "section": "",
+    "text": "Un libro introductorio que pretende iniciar a un analista en las labores psicométricas y de códigos de la unidad a la que pertenezco.\nIr al libro →\n\n\n\nAborda el uso y aprendizajes sobre R base y diversos paquetes que utilizo en mi día a día.\nIr al libro →"
+  },
+  {
+    "objectID": "libros.html#libros-de-psicología-clínica",
+    "href": "libros.html#libros-de-psicología-clínica",
+    "title": "Books",
+    "section": "",
+    "text": "Libro introductorio sobre los PAP y sus diversos modelos.\nIr al libro →\n\n\n\nEnfoque en el modelo ABCDE de la Pontificia Universidad Católica de Chile.\nIr al libro →\n\n\n\nQué es el ACT pensando en la perspectiva y necesidad de un paciente.\nIr al libro →"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Proximamente",
+    "section": "",
+    "text": "This is a post with executable code.\n[1] 2"
   }
 ]

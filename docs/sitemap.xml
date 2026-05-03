@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://psynguin.github.io/index.html</loc>
-    <lastmod>2025-11-13T22:30:24.386Z</lastmod>
-  </url>
-  <url>
-    <loc>https://psynguin.github.io/proyectos.html</loc>
-    <lastmod>2025-08-04T02:58:38.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://psynguin.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2025-08-04T03:09:03.527Z</lastmod>
-  </url>
-  <url>
-    <loc>https://psynguin.github.io/libros.html</loc>
-    <lastmod>2025-08-06T17:37:24.244Z</lastmod>
-  </url>
-  <url>
-    <loc>https://psynguin.github.io/about-es.html</loc>
-    <lastmod>2025-11-13T22:25:45.539Z</lastmod>
-  </url>
-  <url>
-    <loc>https://psynguin.github.io/about-en.html</loc>
-    <lastmod>2025-11-13T22:02:44.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://psynguin.github.io/about.html</loc>
-    <lastmod>2025-06-16T22:43:48.000Z</lastmod>
+    <loc>https://psynguin.github.io/posts/welcome/index.html</loc>
+    <lastmod>2026-05-03T18:04:11.323Z</lastmod>
   </url>
   <url>
     <loc>https://psynguin.github.io/posts/index.html</loc>
-    <lastmod>2025-08-04T02:55:33.657Z</lastmod>
+    <lastmod>2026-05-02T01:52:08.985Z</lastmod>
   </url>
   <url>
-    <loc>https://psynguin.github.io/posts/welcome/index.html</loc>
-    <lastmod>2025-06-16T22:43:48.000Z</lastmod>
+    <loc>https://psynguin.github.io/index.html</loc>
+    <lastmod>2026-05-03T17:50:39.951Z</lastmod>
+  </url>
+  <url>
+    <loc>https://psynguin.github.io/comision.html</loc>
+    <lastmod>2026-05-02T03:31:35.251Z</lastmod>
+  </url>
+  <url>
+    <loc>https://psynguin.github.io/about.html</loc>
+    <lastmod>2026-05-03T17:38:04.058Z</lastmod>
+  </url>
+  <url>
+    <loc>https://psynguin.github.io/cv.html</loc>
+    <lastmod>2026-05-03T18:01:12.624Z</lastmod>
+  </url>
+  <url>
+    <loc>https://psynguin.github.io/libros.html</loc>
+    <lastmod>2026-05-02T02:06:47.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://psynguin.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2026-05-03T18:03:30.148Z</lastmod>
   </url>
 </urlset>

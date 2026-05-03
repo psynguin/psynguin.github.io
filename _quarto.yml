@@ -1,6 +1,14 @@
 project:
   type: website
   output-dir: "docs"
+
+execute:
+  freeze: false
+  cache: false
+  echo: false
+  message: false
+  output: asis
+
 website:
   title: "Tom Baladrón"
   site-url: "https://psynguin.github.io/"
@@ -12,34 +20,23 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/tom-baladr%C3%B3n-733642145/
   navbar:
+    title: false
+    position: right
     left:
-      - text: About
-        menu:
-          - text: Español
-            href: about-es.qmd
-          - text: English
-            href: about-en.qmd
-      - text: Posts
-        menu:
-          - text: Todos
-            href: posts/index.qmd
-          - text: Psicología Clínica
-            href: posts/index.qmd
-          - text: Psicometría
-            href: posts/index.qmd
-          - text: Programación
-            href: posts/index.qmd
-          - text: Inteligencia Artificial
-            href: posts/index.qmd
-      - text: Libros
-        href: libros.qmd
-      - text: Proyectos
-        href: proyectos.qmd
+      - text: "Home"
+        href: index.qmd
     right:
-      - icon: github
-        href: https://github.com/psynguin
-      - icon: linkedin
-        href: https://www.linkedin.com/in/tom-baladr%C3%B3n-733642145/
+      - text: "About"
+        href: about.qmd
+      - text: "Comisiones"
+        href: comision.qmd
+      - text: "Books"
+        href: libros.qmd
+      - text: "Blog"
+        href: posts/index.qmd
+      - text: "My CV"
+        href: cv.qmd
+
 
 lang: es
 
@@ -48,6 +45,7 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     smooth-scroll: true
-    theme: cosmo
-    css: styles.css
-
+    theme:
+      - flatly
+      - styles/custom.scss
+    css: styles/styles.css
